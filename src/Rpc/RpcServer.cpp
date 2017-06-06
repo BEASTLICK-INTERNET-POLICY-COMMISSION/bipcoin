@@ -160,6 +160,7 @@ bool RpcServer::processJsonRpcRequest(const HttpRequest& request, HttpResponse& 
   using namespace JsonRpc;
 
   response.addHeader("Content-Type", "application/json");
+  response.addHeader("Access-Control-Allow-Origin", "*");
 
   JsonRpcRequest jsonRequest;
   JsonRpcResponse jsonResponse;
