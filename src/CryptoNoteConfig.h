@@ -122,7 +122,7 @@ const uint64_t P2P_DEFAULT_INVOKE_TIMEOUT                    = 60 * 2 * 1000; //
 const size_t   P2P_DEFAULT_HANDSHAKE_INVOKE_TIMEOUT          = 5000;          // 5 seconds
 const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "";
 
-const char* const SEED_NODES[] = { "pool.democats.org:7690", "bipcoin.freedomfeens.com:18870", "bipcoin.alienseed.com:18870", "werdwerd.us:18870", "172.245.191.237:18870", "5.189.135.137:18870" };
+const char* const SEED_NODES[] = { "pool.democats.org:7690", "bipcoin.freedomfeens.com:18870", "bipcoin.alienseed.com:18870", "172.245.191.237:18870", "5.189.135.137:18870" };
 
 
 struct CheckpointData {
